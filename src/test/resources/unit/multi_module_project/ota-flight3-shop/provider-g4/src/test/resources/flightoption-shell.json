@@ -1,0 +1,94 @@
+{
+  "segments": [
+    {
+      "legs": [
+        {
+          "origin": "BLI",
+          "destination": "LAS",
+          "originTerminal": null,
+          "destinationTerminal": null,
+          "aircraftCode": "31B",
+          "arrivalTime": "2017-07-23T10:29:00",
+          "departureTime": "2017-07-23T08:00:00",
+          "duration": 149,
+          "miles": 954,
+          "connectionInfo": null,
+          "operatorCode": null,
+          "onTimePerformance": null,
+          "gmtDepartureTime": "2017-07-23T15:00:00",
+          "gmtArrivalTime": "2017-07-23T17:29:00"
+        }
+      ],
+      "carrierCode": "G4",
+      "operatorCode": null,
+      "flightNumber": "1810",
+      "connectionInfo": null,
+      "cabin": null,
+      "duration": 149
+    }
+  ],
+  "providerFares": [
+    {
+      "namedFares": [
+        {
+          "name": "STD",
+          "ratePlanCodes" : ["TNEW"],
+          "fareDetails": [
+            {
+              "baseFare": "USD0.00",
+              "taxes": [
+                {
+                  "code": "XT",
+                  "description": "FED EXCISE TAX",
+                  "amount": "USD0.00",
+                  "calculation": {
+                    "name": "FED EXCISE TAX",
+                    "type": "PERCENTAGE",
+                    "amount": 0.0750
+                  }
+                }
+              ],
+              "fees": [
+                {
+                  "code": "ZP",
+                  "description": "SEGMENT FEES",
+                  "amount": "USD4.10"
+                },
+                {
+                  "code": "SEC",
+                  "description": "SECURITY SERVICE FEE",
+                  "amount": "USD5.60"
+                },
+                {
+                  "code": "PFC",
+                  "description": "PFC",
+                  "amount": "USD4.50"
+                }
+              ],
+              "availableSeats": 21,
+              "couponCode": "",
+              "applicablePassengerTypes": [
+                "ADULT"
+              ],
+              "includedSeatCount": 1,
+              "salesTotal": "USD87.00",
+              "taxTotal": "USD5.08",
+              "feeTotal": "USD14.20"
+            }
+          ],
+          "passengerTypeCounts" : ["1A"],
+          "strikethru" : "USD97.00",
+          "fareSalesTotal": "USD87.00"
+        }
+      ],
+      "providerId": "g4",
+      "packageId": "NONE",
+      "fareClassCodes": [
+        "T"
+      ],
+      "lowestNamedFareSalesTotal": null
+    }
+  ],
+  "duration": 149,
+  "travelTime": 149
+}

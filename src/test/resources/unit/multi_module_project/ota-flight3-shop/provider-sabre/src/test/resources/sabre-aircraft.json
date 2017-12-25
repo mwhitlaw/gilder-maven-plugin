@@ -1,0 +1,18 @@
+{
+  "AircraftInfo": [
+    {
+      "AircraftCode": "753",
+      "AircraftName": "BOEING 757 300 SERIES"
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/lists/utilities/aircraft/equipment?aircraftcode=753"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/lists/utilities/aircraft/equipment?aircraftcode=<aircraftcode>"
+    }
+  ]
+}

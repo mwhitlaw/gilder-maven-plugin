@@ -1,0 +1,3672 @@
+{
+  "flightOptions": [
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "753",
+              "arrivalTime": "2017-04-26T05:00:00",
+              "departureTime": "2017-04-25T20:45:00",
+              "duration": 315,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T06:45:00",
+              "gmtArrivalTime": "2017-04-26T12:00:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1212",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 315
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-26T08:26:00",
+              "departureTime": "2017-04-26T07:10:00",
+              "duration": 76,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-26T14:10:00",
+              "gmtArrivalTime": "2017-04-26T15:26:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5793",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 76
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "baseFare": "USD636.80",
+                "taxes": [
+                  {
+                    "code": "US1",
+                    "description": null,
+                    "amount": "USD10.19",
+                    "calculation": null
+                  },
+                  {
+                    "code": "ZP",
+                    "description": null,
+                    "amount": "USD20.50",
+                    "calculation": null
+                  },
+                  {
+                    "code": "US2",
+                    "description": null,
+                    "amount": "USD18.00",
+                    "calculation": null
+                  },
+                  {
+                    "code": "AY",
+                    "description": null,
+                    "amount": "USD11.20",
+                    "calculation": null
+                  },
+                  {
+                    "code": "XF",
+                    "description": null,
+                    "amount": "USD18.00",
+                    "calculation": null
+                  }
+                ],
+                "fees": null,
+                "availableSeats": 4,
+                "couponCode": null,
+                "passengers": null,
+                "taxTotal": "USD77.89",
+                "feeTotal": "USD0.00",
+                "salesTotal": "USD714.69"
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-0",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 391
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-0",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "SLC",
+              "originTerminal": "M",
+              "destinationTerminal": "2",
+              "aircraftCode": "763",
+              "arrivalTime": "2017-04-26T06:52:00",
+              "departureTime": "2017-04-25T20:40:00",
+              "duration": 372,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T06:40:00",
+              "gmtArrivalTime": "2017-04-26T12:52:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1104",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 372
+        },
+        {
+          "legs": [
+            {
+              "origin": "SLC",
+              "destination": "LAS",
+              "originTerminal": "2",
+              "destinationTerminal": "1",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-26T08:53:00",
+              "departureTime": "2017-04-26T08:25:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T14:25:00",
+              "gmtArrivalTime": "2017-04-26T15:53:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1483",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-1",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 460
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-1",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "SLC",
+              "originTerminal": "M",
+              "destinationTerminal": "2",
+              "aircraftCode": "763",
+              "arrivalTime": "2017-04-26T06:52:00",
+              "departureTime": "2017-04-25T20:40:00",
+              "duration": 372,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T06:40:00",
+              "gmtArrivalTime": "2017-04-26T12:52:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1104",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 372
+        },
+        {
+          "legs": [
+            {
+              "origin": "SLC",
+              "destination": "LAS",
+              "originTerminal": "2",
+              "destinationTerminal": "1",
+              "aircraftCode": "CR9",
+              "arrivalTime": "2017-04-26T10:09:00",
+              "departureTime": "2017-04-26T09:35:00",
+              "duration": 94,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T15:35:00",
+              "gmtArrivalTime": "2017-04-26T17:09:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "3565",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 94
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-2",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 466
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-2",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "SLC",
+              "originTerminal": "M",
+              "destinationTerminal": "2",
+              "aircraftCode": "763",
+              "arrivalTime": "2017-04-26T06:52:00",
+              "departureTime": "2017-04-25T20:40:00",
+              "duration": 372,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T06:40:00",
+              "gmtArrivalTime": "2017-04-26T12:52:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1104",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 372
+        },
+        {
+          "legs": [
+            {
+              "origin": "SLC",
+              "destination": "LAS",
+              "originTerminal": "2",
+              "destinationTerminal": "1",
+              "aircraftCode": "CR9",
+              "arrivalTime": "2017-04-26T10:09:00",
+              "departureTime": "2017-04-26T09:35:00",
+              "duration": 94,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T15:35:00",
+              "gmtArrivalTime": "2017-04-26T17:09:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "3565",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 94
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfos": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-3",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 466
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-3",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "SEA",
+              "originTerminal": "M",
+              "destinationTerminal": null,
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-26T06:54:00",
+              "departureTime": "2017-04-25T22:05:00",
+              "duration": 349,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-26T08:05:00",
+              "gmtArrivalTime": "2017-04-26T13:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2218",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 349
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "LAS",
+              "originTerminal": null,
+              "destinationTerminal": "1",
+              "aircraftCode": "717",
+              "arrivalTime": "2017-04-26T10:37:00",
+              "departureTime": "2017-04-26T08:00:00",
+              "duration": 157,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T15:00:00",
+              "gmtArrivalTime": "2017-04-26T17:37:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2414",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 157
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-4",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 506
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-4",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-25T15:40:00",
+              "departureTime": "2017-04-25T07:10:00",
+              "duration": 330,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-25T17:10:00",
+              "gmtArrivalTime": "2017-04-25T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1150",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 330
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-25T18:24:00",
+              "departureTime": "2017-04-25T17:05:00",
+              "duration": 79,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T00:05:00",
+              "gmtArrivalTime": "2017-04-26T01:24:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4458",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 79
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-5",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 409
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-5",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "SEA",
+              "originTerminal": "M",
+              "destinationTerminal": null,
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-26T06:54:00",
+              "departureTime": "2017-04-25T22:05:00",
+              "duration": 349,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-26T08:05:00",
+              "gmtArrivalTime": "2017-04-26T13:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2218",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 349
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "LAS",
+              "originTerminal": null,
+              "destinationTerminal": "1",
+              "aircraftCode": "717",
+              "arrivalTime": "2017-04-26T10:37:00",
+              "departureTime": "2017-04-26T08:00:00",
+              "duration": 157,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T15:00:00",
+              "gmtArrivalTime": "2017-04-26T17:37:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2414",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 157
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-6",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 506
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-6",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "SLC",
+              "originTerminal": "M",
+              "destinationTerminal": "2",
+              "aircraftCode": "763",
+              "arrivalTime": "2017-04-26T06:52:00",
+              "departureTime": "2017-04-25T20:40:00",
+              "duration": 372,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T06:40:00",
+              "gmtArrivalTime": "2017-04-26T12:52:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1104",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 372
+        },
+        {
+          "legs": [
+            {
+              "origin": "SLC",
+              "destination": "LAS",
+              "originTerminal": "2",
+              "destinationTerminal": "1",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-26T08:53:00",
+              "departureTime": "2017-04-26T08:25:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T14:25:00",
+              "gmtArrivalTime": "2017-04-26T15:53:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1483",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-7",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 460
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-7",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "76W",
+              "arrivalTime": "2017-04-25T19:30:00",
+              "departureTime": "2017-04-25T11:01:00",
+              "duration": 329,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-25T21:01:00",
+              "gmtArrivalTime": "2017-04-26T02:30:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1283",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 329
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "717",
+              "arrivalTime": "2017-04-25T23:23:00",
+              "departureTime": "2017-04-25T22:05:00",
+              "duration": 78,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 6,
+              "gmtDepartureTime": "2017-04-26T05:05:00",
+              "gmtArrivalTime": "2017-04-26T06:23:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2157",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 78
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-8",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 407
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-8",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-25T15:40:00",
+              "departureTime": "2017-04-25T07:10:00",
+              "duration": 330,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-25T17:10:00",
+              "gmtArrivalTime": "2017-04-25T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1150",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 330
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "73H",
+              "arrivalTime": "2017-04-25T20:24:00",
+              "departureTime": "2017-04-25T19:05:00",
+              "duration": 79,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-26T02:05:00",
+              "gmtArrivalTime": "2017-04-26T03:24:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "858",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 79
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-9",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 409
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-9",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-25T15:40:00",
+              "departureTime": "2017-04-25T07:10:00",
+              "duration": 330,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-25T17:10:00",
+              "gmtArrivalTime": "2017-04-25T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1150",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 330
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "73H",
+              "arrivalTime": "2017-04-25T20:24:00",
+              "departureTime": "2017-04-25T19:05:00",
+              "duration": 79,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-26T02:05:00",
+              "gmtArrivalTime": "2017-04-26T03:24:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "858",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 79
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-10",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 409
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-10",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "76W",
+              "arrivalTime": "2017-04-25T19:30:00",
+              "departureTime": "2017-04-25T11:01:00",
+              "duration": 329,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-25T21:01:00",
+              "gmtArrivalTime": "2017-04-26T02:30:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1283",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 329
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "717",
+              "arrivalTime": "2017-04-25T23:23:00",
+              "departureTime": "2017-04-25T22:05:00",
+              "duration": 78,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 6,
+              "gmtDepartureTime": "2017-04-26T05:05:00",
+              "gmtArrivalTime": "2017-04-26T06:23:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2157",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 78
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-11",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 407
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-11",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "753",
+              "arrivalTime": "2017-04-26T05:00:00",
+              "departureTime": "2017-04-25T20:45:00",
+              "duration": 315,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T06:45:00",
+              "gmtArrivalTime": "2017-04-26T12:00:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1212",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 315
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-26T08:26:00",
+              "departureTime": "2017-04-26T07:10:00",
+              "duration": 76,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-26T14:10:00",
+              "gmtArrivalTime": "2017-04-26T15:26:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5793",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 76
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-12",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 391
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "LAX",
+              "originTerminal": "A",
+              "destinationTerminal": "5",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T15:40:00",
+              "departureTime": "2017-04-29T14:19:00",
+              "duration": 81,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 4,
+              "gmtDepartureTime": "2017-04-29T21:19:00",
+              "gmtArrivalTime": "2017-04-29T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5736",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 81
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "5",
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T21:54:00",
+              "departureTime": "2017-04-29T18:55:00",
+              "duration": 359,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:55:00",
+              "gmtArrivalTime": "2017-04-30T07:54:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1149",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 359
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-12",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 528
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAX",
+              "originTerminal": "M",
+              "destinationTerminal": "5",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-25T15:40:00",
+              "departureTime": "2017-04-25T07:10:00",
+              "duration": 330,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-25T17:10:00",
+              "gmtArrivalTime": "2017-04-25T22:40:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "1150",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 330
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "LAS",
+              "originTerminal": "5",
+              "destinationTerminal": "1",
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-25T18:24:00",
+              "departureTime": "2017-04-25T17:05:00",
+              "duration": 79,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T00:05:00",
+              "gmtArrivalTime": "2017-04-26T01:24:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4458",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 79
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD636.80",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD10.19",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD20.50",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 4,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD77.89",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD714.69"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-13",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 409
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "SJC",
+              "originTerminal": "1",
+              "destinationTerminal": "A",
+              "aircraftCode": "E75",
+              "arrivalTime": "2017-04-29T11:58:00",
+              "departureTime": "2017-04-29T10:30:00",
+              "duration": 88,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T17:30:00",
+              "gmtArrivalTime": "2017-04-29T18:58:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "5688",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 88
+        },
+        {
+          "legs": [
+            {
+              "origin": "SJC",
+              "destination": "SEA",
+              "originTerminal": "A",
+              "destinationTerminal": null,
+              "aircraftCode": "E7W",
+              "arrivalTime": "2017-04-29T16:17:00",
+              "departureTime": "2017-04-29T14:06:00",
+              "duration": 131,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-29T21:06:00",
+              "gmtArrivalTime": "2017-04-29T23:17:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "4449",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 131
+        },
+        {
+          "legs": [
+            {
+              "origin": "SEA",
+              "destination": "HNL",
+              "originTerminal": null,
+              "destinationTerminal": "M",
+              "aircraftCode": "739",
+              "arrivalTime": "2017-04-29T20:45:00",
+              "departureTime": "2017-04-29T17:25:00",
+              "duration": 380,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-30T00:25:00",
+              "gmtArrivalTime": "2017-04-30T06:45:00"
+            }
+          ],
+          "carrierCode": "DL",
+          "operatorCode": "DL",
+          "flightNumber": "2215",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 380
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-13",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 599
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAS",
+              "originTerminal": "Z",
+              "destinationTerminal": "3",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-25T23:45:00",
+              "departureTime": "2017-04-25T15:05:00",
+              "duration": 340,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T01:05:00",
+              "gmtArrivalTime": "2017-04-26T06:45:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "18",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 340
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD673.53",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD6.47",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD8.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD9.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 7,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD52.87",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD726.40"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-14",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 340
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "HNL",
+              "originTerminal": "3",
+              "destinationTerminal": "Z",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-29T05:00:00",
+              "departureTime": "2017-04-29T01:45:00",
+              "duration": 375,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-29T08:45:00",
+              "gmtArrivalTime": "2017-04-29T15:00:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "17",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 375
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-14",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 375
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAS",
+              "originTerminal": "Z",
+              "destinationTerminal": "3",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-25T16:35:00",
+              "departureTime": "2017-04-25T07:50:00",
+              "duration": 345,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-25T17:50:00",
+              "gmtArrivalTime": "2017-04-25T23:35:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "6",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 345
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD673.53",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD6.47",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD8.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD9.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 7,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD52.87",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD726.40"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-15",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 345
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "HNL",
+              "originTerminal": "3",
+              "destinationTerminal": "Z",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-29T05:00:00",
+              "departureTime": "2017-04-29T01:45:00",
+              "duration": 375,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-29T08:45:00",
+              "gmtArrivalTime": "2017-04-29T15:00:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "17",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 375
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-15",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 375
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAS",
+              "originTerminal": "Z",
+              "destinationTerminal": "3",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-26T07:15:00",
+              "departureTime": "2017-04-25T22:35:00",
+              "duration": 340,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-26T08:35:00",
+              "gmtArrivalTime": "2017-04-26T14:15:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "8",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 340
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD673.53",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD6.47",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD8.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD9.00",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 7,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD52.87",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD726.40"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-16",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 340
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "HNL",
+              "originTerminal": "3",
+              "destinationTerminal": "Z",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-29T05:00:00",
+              "departureTime": "2017-04-29T01:45:00",
+              "duration": 375,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-29T08:45:00",
+              "gmtArrivalTime": "2017-04-29T15:00:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "17",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 375
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-16",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 375
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAS",
+              "originTerminal": "Z",
+              "destinationTerminal": "3",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-25T23:45:00",
+              "departureTime": "2017-04-25T15:05:00",
+              "duration": 340,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-04-26T01:05:00",
+              "gmtArrivalTime": "2017-04-26T06:45:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "18",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 340
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD673.53",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD6.47",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD12.30",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD13.50",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 7,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD61.47",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD735.00"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-17",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 340
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "LAX",
+              "originTerminal": "3",
+              "destinationTerminal": "3",
+              "aircraftCode": "320",
+              "arrivalTime": "2017-04-29T16:07:00",
+              "departureTime": "2017-04-29T14:55:00",
+              "duration": 72,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": null,
+              "gmtDepartureTime": "2017-04-29T21:55:00",
+              "gmtArrivalTime": "2017-04-29T23:07:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "VX",
+          "flightNumber": "2608",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 72
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "2",
+              "destinationTerminal": "Z",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-29T20:55:00",
+              "departureTime": "2017-04-29T18:05:00",
+              "duration": 350,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:05:00",
+              "gmtArrivalTime": "2017-04-30T06:55:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "9",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 350
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-17",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 422
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAS",
+              "originTerminal": "Z",
+              "destinationTerminal": "3",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-25T16:35:00",
+              "departureTime": "2017-04-25T07:50:00",
+              "duration": 345,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-04-25T17:50:00",
+              "gmtArrivalTime": "2017-04-25T23:35:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "6",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 345
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD673.53",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD6.47",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD12.30",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD13.50",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 7,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD61.47",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD735.00"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-18",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 345
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "LAX",
+              "originTerminal": "3",
+              "destinationTerminal": "3",
+              "aircraftCode": "320",
+              "arrivalTime": "2017-04-29T16:07:00",
+              "departureTime": "2017-04-29T14:55:00",
+              "duration": 72,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": null,
+              "gmtDepartureTime": "2017-04-29T21:55:00",
+              "gmtArrivalTime": "2017-04-29T23:07:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "VX",
+          "flightNumber": "2608",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 72
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "2",
+              "destinationTerminal": "Z",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-29T20:55:00",
+              "departureTime": "2017-04-29T18:05:00",
+              "duration": 350,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:05:00",
+              "gmtArrivalTime": "2017-04-30T06:55:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "9",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 350
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-18",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 422
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "HNL",
+              "destination": "LAS",
+              "originTerminal": "Z",
+              "destinationTerminal": "3",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-26T07:15:00",
+              "departureTime": "2017-04-25T22:35:00",
+              "duration": 340,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-04-26T08:35:00",
+              "gmtArrivalTime": "2017-04-26T14:15:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "8",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 340
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": {
+            "RACK": [
+              {
+                "pricingInfo": {
+                  "baseFare": "USD673.53",
+                  "taxes": [
+                    {
+                      "code": "US1",
+                      "description": null,
+                      "amount": "USD6.47",
+                      "calculation": null
+                    },
+                    {
+                      "code": "ZP",
+                      "description": null,
+                      "amount": "USD12.30",
+                      "calculation": null
+                    },
+                    {
+                      "code": "US2",
+                      "description": null,
+                      "amount": "USD18.00",
+                      "calculation": null
+                    },
+                    {
+                      "code": "AY",
+                      "description": null,
+                      "amount": "USD11.20",
+                      "calculation": null
+                    },
+                    {
+                      "code": "XF",
+                      "description": null,
+                      "amount": "USD13.50",
+                      "calculation": null
+                    }
+                  ],
+                  "fees": null,
+                  "availableSeats": 7,
+                  "couponCode": null,
+                  "passengers": null,
+                  "taxTotal": "USD61.47",
+                  "feeTotal": "USD0.00",
+                  "salesTotal": "USD735.00"
+                }
+              }
+            ]
+          },
+          "providerId": "sabre",
+          "packageId": "package-19",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 340
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "LAX",
+              "originTerminal": "3",
+              "destinationTerminal": "3",
+              "aircraftCode": "320",
+              "arrivalTime": "2017-04-29T16:07:00",
+              "departureTime": "2017-04-29T14:55:00",
+              "duration": 72,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": null,
+              "gmtDepartureTime": "2017-04-29T21:55:00",
+              "gmtArrivalTime": "2017-04-29T23:07:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "VX",
+          "flightNumber": "2608",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 72
+        },
+        {
+          "legs": [
+            {
+              "origin": "LAX",
+              "destination": "HNL",
+              "originTerminal": "2",
+              "destinationTerminal": "Z",
+              "aircraftCode": "332",
+              "arrivalTime": "2017-04-29T20:55:00",
+              "departureTime": "2017-04-29T18:05:00",
+              "duration": 350,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-04-30T01:05:00",
+              "gmtArrivalTime": "2017-04-30T06:55:00"
+            }
+          ],
+          "carrierCode": "HA",
+          "operatorCode": "HA",
+          "flightNumber": "9",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 350
+        }
+      ],
+      "providerPricingOptions": [
+        {
+          "pricingInfos": null,
+          "providerId": "sabre",
+          "packageId": "package-19",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 422
+    }
+  ]
+}

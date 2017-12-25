@@ -1,0 +1,13 @@
+{
+  "market": [
+    {
+      "rowVer": "2017-06-20 06:04:33.283344",
+      "id": 1,
+      "name": "BILLAS",
+      "originAirportCode": "BIL",
+      "destinationAirportCode": "LAS",
+      "effDate": "2017-06-01",
+      "expDate": "2018-02-13"
+    }
+  ]
+}

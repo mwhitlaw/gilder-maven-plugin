@@ -1,0 +1,42 @@
+@startuml
+
+class ShopDto  {
+}
+
+class SegmentDto {
+}
+
+class FareAndAvailDto {
+}
+
+class FareDto {
+    <b>String fareClassCode</b>
+    double baseFare
+    String couponCode
+
+}
+
+class FeeDto {
+    int type
+    String code
+    String description
+    double value
+    Boolean includedInFare
+    Boolean percentage
+    BigDecimal rate
+}
+
+class FareClassInventoryDto {
+    <b>String fareclassCode</b>
+    int numberAvail
+    int totalFlightSeats
+    int waitlistedCount
+}
+
+ShopDto *-- SegmentDto
+ShopDto *-- FareAndAvailDto
+FareAndAvailDto *-- FareDto
+FareDto *-- FeeDto
+FareAndAvailDto *-- FareClassInventoryDto
+
+@enduml

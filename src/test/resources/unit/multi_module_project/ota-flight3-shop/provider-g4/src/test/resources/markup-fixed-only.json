@@ -1,0 +1,99 @@
+{
+  "flightOptions": [
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "BLI",
+              "destination": "LAS",
+              "originTerminal": null,
+              "destinationTerminal": null,
+              "aircraftCode": "g4-0",
+              "arrivalTime": "2017-01-27T10:33:00",
+              "departureTime": "2017-01-27T08:00:00",
+              "duration": 153,
+              "miles": 954,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": null,
+              "gmtDepartureTime": "2017-01-27T16:00:00",
+              "gmtArrivalTime": "2017-01-27T18:33:00"
+            }
+          ],
+          "carrierCode": "G4",
+          "operatorCode": null,
+          "flightNumber": "1810",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 153
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [
+            {
+              "name" : "RACK",
+              "fareDetails": [
+                {
+                  "baseFare": "USD60.28",
+                  "taxes": [
+                    {
+                      "code": "XT",
+                      "description": "FED EXCISE TAX",
+                      "amount": "USD4.52",
+                      "calculation": {
+                        "name": "MISC",
+                        "type": "FIXED",
+                        "amount": 10.25
+                      }
+                    }
+                  ],
+                  "fees": [
+                    {
+                      "code": "ZP",
+                      "description": "SEGMENT FEES",
+                      "amount": "USD4.10"
+                    },
+                    {
+                      "code": "SEC",
+                      "description": "SECURITY SERVICE FEE",
+                      "amount": "USD5.60"
+                    },
+                    {
+                      "code": "PFC",
+                      "description": "PFC",
+                      "amount": "USD4.50"
+                    }
+                  ],
+                  "availableSeats": 5,
+                  "couponCode": "",
+                  "passengers": [
+                    "1A"
+                  ],
+                  "taxTotal": "USD4.52",
+                  "feeTotal": "USD14.20",
+                  "salesTotal": "USD79.00"
+                }
+              ]
+            }
+          ],
+          "providerId": "g4",
+          "packageId": "NONE",
+          "referenceProperties": null
+        }
+      ],
+      "duration": 153
+    }
+  ],
+  "dataDictionary": {
+    "airports": [],
+    "cities": [],
+    "aircraft": [
+      {
+        "code": "g4-0",
+        "name": "Airbus 31B"
+      }
+    ]
+  }
+}

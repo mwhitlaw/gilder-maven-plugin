@@ -1,0 +1,101 @@
+{
+  "responseStatusDto": {
+    "warnings": [],
+    "errors": []
+  },
+  "shopDtos": [
+    {
+      "segment": {
+        "airlineCode": "G4",
+        "fltNum": "1810",
+        "equipment": {
+          "make": "Airbus",
+          "model": "31B"
+        },
+        "flightStatus": "",
+        "closeFlag": "",
+        "legs": [
+          {
+            "departAirport": "BLI",
+            "arriveAirport": "LAS",
+            "scheduledDepartDateTime": "2017-08-22T08:00:00.000",
+            "scheduledArriveDateTime": "2017-08-22T10:28:00.000",
+            "gmtScheduledDepartDateTime": "2017-08-22T15:00:00.000",
+            "gmtScheduledArriveDateTime": "2017-08-22T17:28:00.000",
+            "routeMiles": 954,
+            "actualDepartAirport": "BLI",
+            "actualArriveAirport": "LAS",
+            "leg": "1"
+          }
+        ]
+      },
+      "fareAndAvail": {
+        "fare": {
+          "fareClassCode": "B",
+          "baseFare": 156.13,
+          "fee": [
+            {
+              "type": 1,
+              "code": "XT",
+              "description": "FED EXCISE TAX",
+              "value": 11.71,
+              "includedInFare": true,
+              "percentage": true,
+              "rate": 0.0750
+            },
+            {
+              "type": 1,
+              "code": "ZP",
+              "description": "SEGMENT FEES",
+              "value": 4.10,
+              "includedInFare": false,
+              "percentage": false,
+              "rate": 4.1000
+            },
+            {
+              "type": 2,
+              "code": "SEC",
+              "description": "SECURITY SERVICE FEE",
+              "value": 5.60,
+              "includedInFare": false,
+              "percentage": false,
+              "rate": 5.60
+            },
+            {
+              "type": 2,
+              "code": "PFC",
+              "description": "PFC",
+              "value": 4.50,
+              "includedInFare": false,
+              "percentage": false,
+              "rate": 4.50
+            }
+          ],
+          "couponCode": "CBP",
+          "ratePlanCode": "BCBP",
+          "strikeThruBaseFare": 195.16,
+          "discountReasons": [
+            {
+              "name": "ROUNDTRIP",
+              "amount": 9.30,
+              "postTaxAmount": 10.00
+            },
+            {
+              "name": "COUPON",
+              "amount": 29.73,
+              "postTaxAmount": 32.00
+            }
+          ],
+          "salesTotal": 182.04,
+          "strikeThruSalesTotal": 224.00
+        },
+        "fareClassInventory": {
+          "fareclassCode": "B",
+          "numberAvail": 109,
+          "totalFlightSeats": 156,
+          "waitListedCount": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1341 @@
+{
+  "OTA_AirLowFareSearchRS": {
+    "PricedItinCount": 10,
+    "BrandedOneWayItinCount": 0,
+    "SimpleOneWayItinCount": 0,
+    "DepartedItinCount": 0,
+    "SoldOutItinCount": 0,
+    "AvailableItinCount": 0,
+    "Version": "1.9.4",
+    "Success": {},
+    "Warnings": {
+      "Warning": [
+        {
+          "Type": "MAIN",
+          "ShortText": "This response version is deprecated and will be decommissioned once two newer versions are released.",
+          "Code": "DEPRECATEDRS",
+          "content": ""
+        },
+        {
+          "Type": "WORKERTHREAD",
+          "ShortText": "5570521607535395086",
+          "Code": "TRANSACTIONID",
+          "MessageClass": "I",
+          "content": ""
+        },
+        {
+          "Type": "SERVER",
+          "ShortText": "27042",
+          "Code": "TTFHLC704",
+          "MessageClass": "I",
+          "content": ""
+        },
+        {
+          "Type": "DEFAULT",
+          "ShortText": "23285",
+          "Code": "RULEID",
+          "MessageClass": "I",
+          "content": ""
+        },
+        {
+          "Type": "DRE",
+          "ShortText": "22523",
+          "Code": "RULEID",
+          "MessageClass": "I",
+          "content": ""
+        }
+      ]
+    },
+    "PricedItineraries": {
+      "PricedItinerary": [
+        {
+          "SequenceNumber": 1,
+          "AirItinerary": {
+            "DirectionInd": "Return",
+            "OriginDestinationOptions": {
+              "OriginDestinationOption": [
+                {
+                  "ElapsedTime": 362,
+                  "FlightSegment": [
+                    {
+                      "DepartureDateTime": "2017-03-04T17:21:00",
+                      "ArrivalDateTime": "2017-03-04T20:23:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "641",
+                      "ResBookDesigCode": "R",
+                      "ElapsedTime": 362,
+                      "DepartureAirport": {
+                        "LocationCode": "BOS",
+                        "TerminalID": "B",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "LAS",
+                        "TerminalID": "1",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "NK",
+                        "FlightNumber": "641",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "319",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "NK",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -5.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -8.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "5"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ElapsedTime": 297,
+                  "FlightSegment": [
+                    {
+                      "DepartureDateTime": "2017-03-14T22:00:00",
+                      "ArrivalDateTime": "2017-03-15T05:57:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "640",
+                      "ResBookDesigCode": "U",
+                      "ElapsedTime": 297,
+                      "DepartureAirport": {
+                        "LocationCode": "LAS",
+                        "TerminalID": "1",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "BOS",
+                        "TerminalID": "B",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "NK",
+                        "FlightNumber": "640",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "319",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "NK",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -7.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "7"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "AirItineraryPricingInfo": [
+            {
+              "PricingSource": "PUBCS1",
+              "PricingSubSource": "BCH",
+              "FareReturned": true,
+              "ItinTotalFare": {
+                "BaseFare": {
+                  "Amount": 215.80,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "FareConstruction": {
+                  "Amount": 215.80,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "EquivFare": {
+                  "Amount": 215.80,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "Taxes": {
+                  "Tax": [
+                    {
+                      "TaxCode": "TOTALTAX",
+                      "Amount": 44.59,
+                      "CurrencyCode": "USD",
+                      "DecimalPlaces": 2,
+                      "content": ""
+                    }
+                  ]
+                },
+                "TotalFare": {
+                  "Amount": 260.39,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                }
+              },
+              "PTC_FareBreakdowns": {
+                "PTC_FareBreakdown": [
+                  {
+                    "PassengerTypeQuantity": {
+                      "Code": "ADT",
+                      "Quantity": 1
+                    },
+                    "FareBasisCodes": {
+                      "FareBasisCode": [
+                        {
+                          "BookingCode": "R",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "BOS",
+                          "ArrivalAirportCode": "LAS",
+                          "FareComponentBeginAirport": "BOS",
+                          "FareComponentEndAirport": "LAS",
+                          "content": "RA14NR"
+                        },
+                        {
+                          "BookingCode": "U",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "LAS",
+                          "ArrivalAirportCode": "BOS",
+                          "FareComponentBeginAirport": "LAS",
+                          "FareComponentEndAirport": "BOS",
+                          "content": "UA21SP"
+                        }
+                      ]
+                    },
+                    "PassengerFare": {
+                      "BaseFare": {
+                        "Amount": 215.80,
+                        "CurrencyCode": "USD"
+                      },
+                      "FareConstruction": {
+                        "Amount": 215.80,
+                        "CurrencyCode": "USD",
+                        "DecimalPlaces": 2
+                      },
+                      "EquivFare": {
+                        "Amount": 215.80,
+                        "CurrencyCode": "USD",
+                        "DecimalPlaces": 2
+                      },
+                      "Taxes": {
+                        "Tax": [
+                          {
+                            "TaxCode": "US1",
+                            "Amount": 16.19,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "ZP",
+                            "Amount": 8.20,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "AY",
+                            "Amount": 11.20,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "XF",
+                            "Amount": 9.00,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          }
+                        ],
+                        "TotalTax": {
+                          "Amount": 44.59,
+                          "CurrencyCode": "USD",
+                          "DecimalPlaces": 2
+                        }
+                      },
+                      "TotalFare": {
+                        "Amount": 260.39,
+                        "CurrencyCode": "USD"
+                      }
+                    },
+                    "FareInfos": {
+                      "FareInfo": [
+                        {
+                          "FareReference": "R",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "U",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "FareInfos": {
+                "FareInfo": [
+                  {
+                    "FareReference": "R",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "U",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions": {
+                "DivideInParty": {
+                  "Indicator": false
+                },
+                "ValidatingCarrier": [
+                  {
+                    "SettlementMethod": "GTC",
+                    "NewVcxProcess": true,
+                    "Default": "NK"
+                  }
+                ]
+              }
+            }
+          ],
+          "TicketingInfo": {
+            "TicketType": "eTicket"
+          },
+          "TPA_Extensions": {
+            "ValidatingCarrier": {
+              "Code": "NK"
+            }
+          }
+        },
+        {
+          "SequenceNumber": 2,
+          "AirItinerary": {
+            "DirectionInd": "Return",
+            "OriginDestinationOptions": {
+              "OriginDestinationOption": [
+                {
+                  "ElapsedTime": 589,
+                  "FlightSegment": [
+                    {
+                      "DepartureDateTime": "2017-03-04T14:05:00",
+                      "ArrivalDateTime": "2017-03-04T16:06:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "252",
+                      "ResBookDesigCode": "Q",
+                      "ElapsedTime": 181,
+                      "DepartureAirport": {
+                        "LocationCode": "BOS",
+                        "TerminalID": "B",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "ORD",
+                        "TerminalID": "3",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "252",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "738",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -5.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -6.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "9"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    },
+                    {
+                      "DepartureDateTime": "2017-03-04T18:55:00",
+                      "ArrivalDateTime": "2017-03-04T20:54:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "25",
+                      "ResBookDesigCode": "O",
+                      "ElapsedTime": 239,
+                      "DepartureAirport": {
+                        "LocationCode": "ORD",
+                        "TerminalID": "3",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "LAS",
+                        "TerminalID": "1",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "25",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "738",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -6.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -8.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "9"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ElapsedTime": 484,
+                  "FlightSegment": [
+                    {
+                      "DepartureDateTime": "2017-03-14T22:59:00",
+                      "ArrivalDateTime": "2017-03-15T06:02:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "431",
+                      "ResBookDesigCode": "N",
+                      "ElapsedTime": 243,
+                      "DepartureAirport": {
+                        "LocationCode": "LAS",
+                        "TerminalID": "1",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "CLT",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "431",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "321",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -7.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "8"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    },
+                    {
+                      "DepartureDateTime": "2017-03-15T07:50:00",
+                      "ArrivalDateTime": "2017-03-15T10:03:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "1980",
+                      "ResBookDesigCode": "N",
+                      "ElapsedTime": 133,
+                      "DepartureAirport": {
+                        "LocationCode": "CLT",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "BOS",
+                        "TerminalID": "B",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "1980",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "321",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "I",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "9"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "AirItineraryPricingInfo": [
+            {
+              "PricingSource": "PUBCS1",
+              "PricingSubSource": "BCH",
+              "FareReturned": true,
+              "ItinTotalFare": {
+                "BaseFare": {
+                  "Amount": 202.79,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "FareConstruction": {
+                  "Amount": 202.79,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "EquivFare": {
+                  "Amount": 202.79,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "Taxes": {
+                  "Tax": [
+                    {
+                      "TaxCode": "TOTALTAX",
+                      "Amount": 59.31,
+                      "CurrencyCode": "USD",
+                      "DecimalPlaces": 2,
+                      "content": ""
+                    }
+                  ]
+                },
+                "TotalFare": {
+                  "Amount": 262.10,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                }
+              },
+              "PTC_FareBreakdowns": {
+                "PTC_FareBreakdown": [
+                  {
+                    "PassengerTypeQuantity": {
+                      "Code": "ADT",
+                      "Quantity": 1
+                    },
+                    "FareBasisCodes": {
+                      "FareBasisCode": [
+                        {
+                          "BookingCode": "Q",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "BOS",
+                          "ArrivalAirportCode": "ORD",
+                          "FareComponentBeginAirport": "BOS",
+                          "FareComponentEndAirport": "ORD",
+                          "content": "QUAJZNN3"
+                        },
+                        {
+                          "BookingCode": "O",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "ORD",
+                          "ArrivalAirportCode": "LAS",
+                          "FareComponentBeginAirport": "ORD",
+                          "FareComponentEndAirport": "LAS",
+                          "content": "O3AIZNN3"
+                        },
+                        {
+                          "BookingCode": "N",
+                          "DepartureAirportCode": "LAS",
+                          "ArrivalAirportCode": "CLT",
+                          "FareComponentBeginAirport": "LAS",
+                          "FareComponentEndAirport": "BOS",
+                          "content": "NVAHZNN5"
+                        },
+                        {
+                          "BookingCode": "N",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "CLT",
+                          "ArrivalAirportCode": "BOS",
+                          "content": "NVAHZNN5"
+                        }
+                      ]
+                    },
+                    "PassengerFare": {
+                      "BaseFare": {
+                        "Amount": 202.79,
+                        "CurrencyCode": "USD"
+                      },
+                      "FareConstruction": {
+                        "Amount": 202.79,
+                        "CurrencyCode": "USD",
+                        "DecimalPlaces": 2
+                      },
+                      "EquivFare": {
+                        "Amount": 202.79,
+                        "CurrencyCode": "USD",
+                        "DecimalPlaces": 2
+                      },
+                      "Taxes": {
+                        "Tax": [
+                          {
+                            "TaxCode": "US1",
+                            "Amount": 15.21,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "ZP",
+                            "Amount": 16.40,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "AY",
+                            "Amount": 11.20,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "XF",
+                            "Amount": 16.50,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          }
+                        ],
+                        "TotalTax": {
+                          "Amount": 59.31,
+                          "CurrencyCode": "USD",
+                          "DecimalPlaces": 2
+                        }
+                      },
+                      "TotalFare": {
+                        "Amount": 262.10,
+                        "CurrencyCode": "USD"
+                      }
+                    },
+                    "FareInfos": {
+                      "FareInfo": [
+                        {
+                          "FareReference": "Q",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "O",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "N",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "N",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "FareInfos": {
+                "FareInfo": [
+                  {
+                    "FareReference": "Q",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "O",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "N",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "N",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions": {
+                "DivideInParty": {
+                  "Indicator": false
+                },
+                "ValidatingCarrier": [
+                  {
+                    "SettlementMethod": "ARC",
+                    "NewVcxProcess": true,
+                    "Default": "AA"
+                  }
+                ]
+              }
+            }
+          ],
+          "TicketingInfo": {
+            "TicketType": "eTicket"
+          },
+          "TPA_Extensions": {
+            "ValidatingCarrier": {
+              "Code": "AA"
+            }
+          }
+        },
+        {
+          "SequenceNumber": 3,
+          "AirItinerary": {
+            "DirectionInd": "Return",
+            "OriginDestinationOptions": {
+              "OriginDestinationOption": [
+                {
+                  "ElapsedTime": 497,
+                  "FlightSegment": [
+                    {
+                      "DepartureDateTime": "2017-03-04T07:00:00",
+                      "ArrivalDateTime": "2017-03-04T09:05:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "1404",
+                      "ResBookDesigCode": "Q",
+                      "ElapsedTime": 185,
+                      "DepartureAirport": {
+                        "LocationCode": "BOS",
+                        "TerminalID": "B",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "ORD",
+                        "TerminalID": "3",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "1404",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "738",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -5.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -6.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "9"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    },
+                    {
+                      "DepartureDateTime": "2017-03-04T10:20:00",
+                      "ArrivalDateTime": "2017-03-04T12:17:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "2470",
+                      "ResBookDesigCode": "O",
+                      "ElapsedTime": 237,
+                      "DepartureAirport": {
+                        "LocationCode": "ORD",
+                        "TerminalID": "3",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "LAS",
+                        "TerminalID": "1",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "2470",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "738",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -6.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -8.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "8"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ElapsedTime": 484,
+                  "FlightSegment": [
+                    {
+                      "DepartureDateTime": "2017-03-14T22:59:00",
+                      "ArrivalDateTime": "2017-03-15T06:02:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "431",
+                      "ResBookDesigCode": "N",
+                      "ElapsedTime": 243,
+                      "DepartureAirport": {
+                        "LocationCode": "LAS",
+                        "TerminalID": "1",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "CLT",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "431",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "321",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "O",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -7.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "8"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    },
+                    {
+                      "DepartureDateTime": "2017-03-15T07:50:00",
+                      "ArrivalDateTime": "2017-03-15T10:03:00",
+                      "StopQuantity": 0,
+                      "FlightNumber": "1980",
+                      "ResBookDesigCode": "N",
+                      "ElapsedTime": 133,
+                      "DepartureAirport": {
+                        "LocationCode": "CLT",
+                        "content": ""
+                      },
+                      "ArrivalAirport": {
+                        "LocationCode": "BOS",
+                        "TerminalID": "B",
+                        "content": ""
+                      },
+                      "OperatingAirline": {
+                        "Code": "AA",
+                        "FlightNumber": "1980",
+                        "content": ""
+                      },
+                      "Equipment": [
+                        {
+                          "AirEquipType": "321",
+                          "content": ""
+                        }
+                      ],
+                      "MarketingAirline": {
+                        "Code": "AA",
+                        "content": ""
+                      },
+                      "MarriageGrp": "I",
+                      "DepartureTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "ArrivalTimeZone": {
+                        "GMTOffset": -4.0
+                      },
+                      "OnTimePerformance": {
+                        "Level": "9"
+                      },
+                      "TPA_Extensions": {
+                        "eTicket": {
+                          "Ind": true
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "AirItineraryPricingInfo": [
+            {
+              "PricingSource": "PUBCS1",
+              "PricingSubSource": "BCH",
+              "FareReturned": true,
+              "ItinTotalFare": {
+                "BaseFare": {
+                  "Amount": 202.79,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "FareConstruction": {
+                  "Amount": 202.79,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "EquivFare": {
+                  "Amount": 202.79,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                },
+                "Taxes": {
+                  "Tax": [
+                    {
+                      "TaxCode": "TOTALTAX",
+                      "Amount": 59.31,
+                      "CurrencyCode": "USD",
+                      "DecimalPlaces": 2,
+                      "content": ""
+                    }
+                  ]
+                },
+                "TotalFare": {
+                  "Amount": 262.10,
+                  "CurrencyCode": "USD",
+                  "DecimalPlaces": 2
+                }
+              },
+              "PTC_FareBreakdowns": {
+                "PTC_FareBreakdown": [
+                  {
+                    "PassengerTypeQuantity": {
+                      "Code": "ADT",
+                      "Quantity": 1
+                    },
+                    "FareBasisCodes": {
+                      "FareBasisCode": [
+                        {
+                          "BookingCode": "Q",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "BOS",
+                          "ArrivalAirportCode": "ORD",
+                          "FareComponentBeginAirport": "BOS",
+                          "FareComponentEndAirport": "ORD",
+                          "content": "QUAJZNN3"
+                        },
+                        {
+                          "BookingCode": "O",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "ORD",
+                          "ArrivalAirportCode": "LAS",
+                          "FareComponentBeginAirport": "ORD",
+                          "FareComponentEndAirport": "LAS",
+                          "content": "O3AIZNN3"
+                        },
+                        {
+                          "BookingCode": "N",
+                          "DepartureAirportCode": "LAS",
+                          "ArrivalAirportCode": "CLT",
+                          "FareComponentBeginAirport": "LAS",
+                          "FareComponentEndAirport": "BOS",
+                          "content": "NVAHZNN5"
+                        },
+                        {
+                          "BookingCode": "N",
+                          "AvailabilityBreak": true,
+                          "DepartureAirportCode": "CLT",
+                          "ArrivalAirportCode": "BOS",
+                          "content": "NVAHZNN5"
+                        }
+                      ]
+                    },
+                    "PassengerFare": {
+                      "BaseFare": {
+                        "Amount": 202.79,
+                        "CurrencyCode": "USD"
+                      },
+                      "FareConstruction": {
+                        "Amount": 202.79,
+                        "CurrencyCode": "USD",
+                        "DecimalPlaces": 2
+                      },
+                      "EquivFare": {
+                        "Amount": 202.79,
+                        "CurrencyCode": "USD",
+                        "DecimalPlaces": 2
+                      },
+                      "Taxes": {
+                        "Tax": [
+                          {
+                            "TaxCode": "US1",
+                            "Amount": 15.21,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "ZP",
+                            "Amount": 16.40,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "AY",
+                            "Amount": 11.20,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          },
+                          {
+                            "TaxCode": "XF",
+                            "Amount": 16.50,
+                            "CurrencyCode": "USD",
+                            "DecimalPlaces": 2,
+                            "content": ""
+                          }
+                        ],
+                        "TotalTax": {
+                          "Amount": 59.31,
+                          "CurrencyCode": "USD",
+                          "DecimalPlaces": 2
+                        }
+                      },
+                      "TotalFare": {
+                        "Amount": 262.10,
+                        "CurrencyCode": "USD"
+                      }
+                    },
+                    "FareInfos": {
+                      "FareInfo": [
+                        {
+                          "FareReference": "Q",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "O",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "N",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        },
+                        {
+                          "FareReference": "N",
+                          "TPA_Extensions": {
+                            "SeatsRemaining": {
+                              "Number": 4,
+                              "BelowMin": false
+                            },
+                            "Cabin": {
+                              "Cabin": "Y"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "FareInfos": {
+                "FareInfo": [
+                  {
+                    "FareReference": "Q",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "O",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "N",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference": "N",
+                    "TPA_Extensions": {
+                      "SeatsRemaining": {
+                        "Number": 4,
+                        "BelowMin": false
+                      },
+                      "Cabin": {
+                        "Cabin": "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions": {
+                "DivideInParty": {
+                  "Indicator": false
+                },
+                "ValidatingCarrier": [
+                  {
+                    "SettlementMethod": "ARC",
+                    "NewVcxProcess": true,
+                    "Default": "AA"
+                  }
+                ]
+              }
+            }
+          ],
+          "TicketingInfo": {
+            "TicketType": "eTicket"
+          },
+          "TPA_Extensions": {
+            "ValidatingCarrier": {
+              "Code": "AA"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1.9.5.1/shop/calendar/flights"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/<version>/shop/calendar/flights?limit=<limit>&offset=<offset>&enabletagging=<enabletagging>"
+    }
+  ]
+}

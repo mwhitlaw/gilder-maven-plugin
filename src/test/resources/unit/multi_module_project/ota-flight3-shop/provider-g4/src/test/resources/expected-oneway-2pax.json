@@ -1,0 +1,196 @@
+{
+  "flightOptions": [
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "BLI",
+              "destination": "LAS",
+              "originTerminal": null,
+              "destinationTerminal": null,
+              "aircraftCode": "31B",
+              "arrivalTime": "2017-01-27T10:33:00",
+              "departureTime": "2017-01-27T08:00:00",
+              "gmtArrivalTime": "2017-01-27T18:33:00",
+              "gmtDepartureTime": "2017-01-27T16:00:00",
+              "duration": 153,
+              "miles": 954,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": null
+            }
+          ],
+          "carrierCode": "G4",
+          "operatorCode": null,
+          "flightNumber": "1810",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 153
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [
+            {
+              "name": "STD",
+              "ratePlanCodes" : ["SNEW"],
+              "fareDetails": [
+                {
+                  "baseFare": "USD60.28",
+                  "baseFareFromAirline" : null,
+                  "taxes": [
+                    {
+                      "code": "XT",
+                      "description": "FED EXCISE TAX",
+                      "amount": "USD4.52",
+                      "calculation": {
+                        "name": "FED EXCISE TAX",
+                        "type": "PERCENTAGE",
+                        "amount": 0.0750
+                      }
+                    }
+                  ],
+                  "fees": [
+                    {
+                      "code": "ZP",
+                      "description": "SEGMENT FEES",
+                      "amount": "USD4.10"
+                    },
+                    {
+                      "code": "SEC",
+                      "description": "SECURITY SERVICE FEE",
+                      "amount": "USD5.60"
+                    },
+                    {
+                      "code": "PFC",
+                      "description": "PFC",
+                      "amount": "USD4.50"
+                    }
+                  ],
+                  "availableSeats": 5,
+                  "couponCode": "",
+                  "applicablePassengerTypes": [
+                    "ADULT"
+                  ],
+                  "salesTotal": "USD79.00",
+                  "taxTotal": "USD4.52",
+                  "feeTotal": "USD14.20"
+                }
+              ],
+              "dictionaryKey": "STD",
+              "passengerTypeCounts": [
+                "2A"
+              ],
+              "fareSalesTotal": "USD158.00"
+            }
+          ],
+          "providerId": "g4",
+          "packageId": "NONE",
+          "fareClassCodes": [
+            "S"
+          ],
+          "lowestNamedFareSalesTotal": "USD158.00"
+        }
+      ],
+      "travelTime": 153,
+      "duration": 153
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "BLI",
+              "destination": "LAS",
+              "originTerminal": null,
+              "destinationTerminal": null,
+              "aircraftCode": "31B",
+              "arrivalTime": "2017-01-27T17:18:00",
+              "departureTime": "2017-01-27T14:45:00",
+              "gmtArrivalTime": "2017-01-28T01:18:00",
+              "gmtDepartureTime": "2017-01-27T22:45:00",
+              "duration": 153,
+              "miles": 954,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": null
+            }
+          ],
+          "carrierCode": "G4",
+          "operatorCode": null,
+          "flightNumber": "1812",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 153
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [
+            {
+              "name": "STD",
+              "ratePlanCodes" : ["UNEW"],
+              "fareDetails": [
+                {
+                  "baseFare": "USD75.16",
+                  "baseFareFromAirline" : null,
+                  "taxes": [
+                    {
+                      "code": "XT",
+                      "description": "FED EXCISE TAX",
+                      "amount": "USD5.64",
+                      "calculation": {
+                        "name": "FED EXCISE TAX",
+                        "type": "PERCENTAGE",
+                        "amount": 0.0750
+                      }
+                    }
+                  ],
+                  "fees": [
+                    {
+                      "code": "ZP",
+                      "description": "SEGMENT FEES",
+                      "amount": "USD4.10"
+                    },
+                    {
+                      "code": "SEC",
+                      "description": "SECURITY SERVICE FEE",
+                      "amount": "USD5.60"
+                    },
+                    {
+                      "code": "PFC",
+                      "description": "PFC",
+                      "amount": "USD4.50"
+                    }
+                  ],
+                  "availableSeats": 3,
+                  "couponCode": "",
+                  "applicablePassengerTypes": [
+                    "ADULT"
+                  ],
+                  "salesTotal": "USD95.00",
+                  "taxTotal": "USD5.64",
+                  "feeTotal": "USD14.20"
+                }
+              ],
+              "dictionaryKey": "STD",
+              "passengerTypeCounts": [
+                "2A"
+              ],
+              "fareSalesTotal": "USD190.00"
+            }
+          ],
+          "providerId": "g4",
+          "packageId": "NONE",
+          "fareClassCodes": [
+            "U"
+          ],
+          "lowestNamedFareSalesTotal": "USD190.00"
+        }
+      ],
+      "travelTime": 153,
+      "duration": 153
+    }
+  ]
+}

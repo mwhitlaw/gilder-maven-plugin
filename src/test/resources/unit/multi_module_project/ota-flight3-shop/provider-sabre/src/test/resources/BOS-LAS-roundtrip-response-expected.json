@@ -1,0 +1,508 @@
+{
+  "flightOptions": [
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "BOS",
+              "destination": "LAS",
+              "originTerminal": "B",
+              "destinationTerminal": "1",
+              "aircraftCode": "319",
+              "arrivalTime": "2017-03-04T20:23:00",
+              "departureTime": "2017-03-04T17:21:00",
+              "duration": 362,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 5,
+              "gmtDepartureTime": "2017-03-04T22:21:00",
+              "gmtArrivalTime": "2017-03-05T04:23:00"
+            }
+          ],
+          "carrierCode": "NK",
+          "operatorCode": "NK",
+          "flightNumber": "641",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 362
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [{
+            "name" : "STD",
+            "fareDetails": [
+              {
+                "baseFare": "USD215.80",
+                "baseFareFromAirline" : null,
+                "taxes": [
+                  {
+                    "code": "US1",
+                    "description": null,
+                    "amount": "USD16.19",
+                    "calculation": null
+                  },
+                  {
+                    "code": "ZP",
+                    "description": null,
+                    "amount": "USD8.20",
+                    "calculation": null
+                  },
+                  {
+                    "code": "AY",
+                    "description": null,
+                    "amount": "USD11.20",
+                    "calculation": null
+                  },
+                  {
+                    "code": "XF",
+                    "description": null,
+                    "amount": "USD9.00",
+                    "calculation": null
+                  }
+                ],
+                "fees": null,
+                "availableSeats": 4,
+                "couponCode": null,
+                "applicablePassengerTypes": [
+                  "ADULT"
+                ],
+                "taxTotal": "USD44.59",
+                "salesTotal": "USD260.39",
+                "feeTotal": "USD0.00"
+              }
+            ],
+            "dictionaryKey" : "STD",
+            "passengerTypeCounts" : ["1A"],
+            "fareSalesTotal" : "USD260.39"
+          }],
+          "providerId": "sabre",
+          "packageId": "package-0",
+          "fareClassCodes": [
+            "R"
+          ],
+          "lowestNamedFareSalesTotal": "USD260.39"
+        }
+      ],
+      "travelTime": 362,
+      "duration": 362
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "BOS",
+              "originTerminal": "1",
+              "destinationTerminal": "B",
+              "aircraftCode": "319",
+              "arrivalTime": "2017-03-15T05:57:00",
+              "departureTime": "2017-03-14T22:00:00",
+              "duration": 297,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 7,
+              "gmtDepartureTime": "2017-03-15T05:00:00",
+              "gmtArrivalTime": "2017-03-15T09:57:00"
+            }
+          ],
+          "carrierCode": "NK",
+          "operatorCode": "NK",
+          "flightNumber": "640",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 297
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [],
+          "providerId": "sabre",
+          "packageId": "package-0",
+          "fareClassCodes": [
+            "U"
+          ],
+          "lowestNamedFareSalesTotal": "USD0.00"
+        }
+      ],
+      "travelTime": 297,
+      "duration": 297
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "BOS",
+              "destination": "ORD",
+              "originTerminal": "B",
+              "destinationTerminal": "3",
+              "aircraftCode": "738",
+              "arrivalTime": "2017-03-04T16:06:00",
+              "departureTime": "2017-03-04T14:05:00",
+              "duration": 181,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-03-04T19:05:00",
+              "gmtArrivalTime": "2017-03-04T22:06:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "252",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 181
+        },
+        {
+          "legs": [
+            {
+              "origin": "ORD",
+              "destination": "LAS",
+              "originTerminal": "3",
+              "destinationTerminal": "1",
+              "aircraftCode": "738",
+              "arrivalTime": "2017-03-04T20:54:00",
+              "departureTime": "2017-03-04T18:55:00",
+              "duration": 239,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-03-05T00:55:00",
+              "gmtArrivalTime": "2017-03-05T04:54:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "25",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 239
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [{
+            "name" : "STD",
+            "fareDetails": [
+              {
+                "baseFare": "USD202.79",
+                "baseFareFromAirline" : null,
+                "taxes": [
+                  {
+                    "code": "US1",
+                    "description": null,
+                    "amount": "USD15.21",
+                    "calculation": null
+                  },
+                  {
+                    "code": "ZP",
+                    "description": null,
+                    "amount": "USD16.40",
+                    "calculation": null
+                  },
+                  {
+                    "code": "AY",
+                    "description": null,
+                    "amount": "USD11.20",
+                    "calculation": null
+                  },
+                  {
+                    "code": "XF",
+                    "description": null,
+                    "amount": "USD16.50",
+                    "calculation": null
+                  }
+                ],
+                "fees": null,
+                "availableSeats": 4,
+                "couponCode": null,
+                "applicablePassengerTypes": [
+                  "ADULT"
+                ],
+                "taxTotal": "USD59.31",
+                "salesTotal": "USD262.10",
+                "feeTotal": "USD0.00"
+              }
+            ],
+            "dictionaryKey" : "STD",
+            "passengerTypeCounts" : ["1A"],
+            "fareSalesTotal": "USD262.10"
+          }],
+          "providerId": "sabre",
+          "packageId": "package-1",
+          "fareClassCodes": [
+            "Q",
+            "O"
+          ],
+          "lowestNamedFareSalesTotal": "USD262.10"
+        }
+      ],
+      "travelTime": 589,
+      "duration": 420
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "CLT",
+              "originTerminal": "1",
+              "destinationTerminal": null,
+              "aircraftCode": "321",
+              "arrivalTime": "2017-03-15T06:02:00",
+              "departureTime": "2017-03-14T22:59:00",
+              "duration": 243,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-03-15T05:59:00",
+              "gmtArrivalTime": "2017-03-15T10:02:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "431",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 243
+        },
+        {
+          "legs": [
+            {
+              "origin": "CLT",
+              "destination": "BOS",
+              "originTerminal": null,
+              "destinationTerminal": "B",
+              "aircraftCode": "321",
+              "arrivalTime": "2017-03-15T10:03:00",
+              "departureTime": "2017-03-15T07:50:00",
+              "duration": 133,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-03-15T11:50:00",
+              "gmtArrivalTime": "2017-03-15T14:03:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "1980",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 133
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [],
+          "providerId": "sabre",
+          "packageId": "package-1",
+          "fareClassCodes": [
+            "N",
+            "N"
+          ],
+          "lowestNamedFareSalesTotal": "USD0.00"
+        }
+      ],
+      "travelTime": 484,
+      "duration": 376
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "BOS",
+              "destination": "ORD",
+              "originTerminal": "B",
+              "destinationTerminal": "3",
+              "aircraftCode": "738",
+              "arrivalTime": "2017-03-04T09:05:00",
+              "departureTime": "2017-03-04T07:00:00",
+              "duration": 185,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-03-04T12:00:00",
+              "gmtArrivalTime": "2017-03-04T15:05:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "1404",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 185
+        },
+        {
+          "legs": [
+            {
+              "origin": "ORD",
+              "destination": "LAS",
+              "originTerminal": "3",
+              "destinationTerminal": "1",
+              "aircraftCode": "738",
+              "arrivalTime": "2017-03-04T12:17:00",
+              "departureTime": "2017-03-04T10:20:00",
+              "duration": 237,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-03-04T16:20:00",
+              "gmtArrivalTime": "2017-03-04T20:17:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "2470",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 237
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [{
+            "name" : "STD",
+            "fareDetails": [
+              {
+                "baseFare": "USD202.79",
+                "baseFareFromAirline" : null,
+                "taxes": [
+                  {
+                    "code": "US1",
+                    "description": null,
+                    "amount": "USD15.21",
+                    "calculation": null
+                  },
+                  {
+                    "code": "ZP",
+                    "description": null,
+                    "amount": "USD16.40",
+                    "calculation": null
+                  },
+                  {
+                    "code": "AY",
+                    "description": null,
+                    "amount": "USD11.20",
+                    "calculation": null
+                  },
+                  {
+                    "code": "XF",
+                    "description": null,
+                    "amount": "USD16.50",
+                    "calculation": null
+                  }
+                ],
+                "fees": null,
+                "availableSeats": 4,
+                "couponCode": null,
+                "applicablePassengerTypes": [
+                  "ADULT"
+                ],
+                "taxTotal": "USD59.31",
+                "salesTotal": "USD262.10",
+                "feeTotal": "USD0.00"
+              }
+            ],
+            "dictionaryKey" : "STD",
+            "passengerTypeCounts" : ["1A"],
+            "fareSalesTotal": "USD262.10"
+          }],
+          "providerId": "sabre",
+          "packageId": "package-2",
+          "fareClassCodes": [
+            "Q",
+            "O"
+          ],
+          "lowestNamedFareSalesTotal": "USD262.10"
+        }
+      ],
+      "travelTime": 497,
+      "duration": 422
+    },
+    {
+      "segments": [
+        {
+          "legs": [
+            {
+              "origin": "LAS",
+              "destination": "CLT",
+              "originTerminal": "1",
+              "destinationTerminal": null,
+              "aircraftCode": "321",
+              "arrivalTime": "2017-03-15T06:02:00",
+              "departureTime": "2017-03-14T22:59:00",
+              "duration": 243,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 8,
+              "gmtDepartureTime": "2017-03-15T05:59:00",
+              "gmtArrivalTime": "2017-03-15T10:02:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "431",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 243
+        },
+        {
+          "legs": [
+            {
+              "origin": "CLT",
+              "destination": "BOS",
+              "originTerminal": null,
+              "destinationTerminal": "B",
+              "aircraftCode": "321",
+              "arrivalTime": "2017-03-15T10:03:00",
+              "departureTime": "2017-03-15T07:50:00",
+              "duration": 133,
+              "miles": null,
+              "connectionInfo": null,
+              "operatorCode": null,
+              "onTimePerformance": 9,
+              "gmtDepartureTime": "2017-03-15T11:50:00",
+              "gmtArrivalTime": "2017-03-15T14:03:00"
+            }
+          ],
+          "carrierCode": "AA",
+          "operatorCode": "AA",
+          "flightNumber": "1980",
+          "connectionInfo": null,
+          "cabin": null,
+          "duration": 133
+        }
+      ],
+      "providerFares": [
+        {
+          "namedFares": [],
+          "providerId": "sabre",
+          "packageId": "package-2",
+          "fareClassCodes": [
+            "N",
+            "N"
+          ],
+          "lowestNamedFareSalesTotal": "USD0.00"
+        }
+      ],
+      "travelTime": 484,
+      "duration": 376
+    }
+  ]
+}

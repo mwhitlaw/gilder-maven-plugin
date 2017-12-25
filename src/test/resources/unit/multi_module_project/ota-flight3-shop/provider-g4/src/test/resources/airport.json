@@ -1,0 +1,34 @@
+[
+  {
+    "id": {
+      "company": "20",
+      "iata": "BLI"
+    },
+    "address": "",
+    "address2": "",
+    "cflg": "c",
+    "city": "BELLINGHAM",
+    "contact": "",
+    "cor2": null,
+    "country": "USA",
+    "crt": "codefile/2.0",
+    "description": "BELLINGHAM",
+    "fill": null,
+    "isDLSavingsTime": "Y",
+    "isFuel": "Y",
+    "isScanner": "Y",
+    "isStation": "Y",
+    "maxConnectionTime": 999,
+    "minConnectionTime": 999,
+    "minTurnTime": 0,
+    "page": 32,
+    "pchg": "08900",
+    "phone": "",
+    "repositionTurnTime": 0,
+    "state": "WA",
+    "tchg": "22:37:17",
+    "timeZone": "America/Los_Angeles",
+    "zip": "",
+    "recId": 5
+  }
+]

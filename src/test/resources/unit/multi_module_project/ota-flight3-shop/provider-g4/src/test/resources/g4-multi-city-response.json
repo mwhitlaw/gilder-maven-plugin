@@ -1,0 +1,162 @@
+{
+  "flightOptions": {
+    "BLI-LAS-2017-03-01": {
+      "flightOptions": [
+        {
+          "segments": [
+            {
+              "legs": [
+                {
+                  "origin": "BLI",
+                  "destination": "LAS",
+                  "originTerminal": null,
+                  "destinationTerminal": null,
+                  "aircraftCode": "g4-0",
+                  "arrivalTime": "2017-03-01T10:29:00",
+                  "departureTime": "2017-03-01T08:00:00",
+                  "duration": 149,
+                  "miles": 954,
+                  "connectionInfo": null,
+                  "operatorCode": null,
+                  "onTimePerformance": null,
+                  "gmtDepartureTime": "2017-03-01T16:00:00",
+                  "gmtArrivalTime": "2017-03-01T18:29:00"
+                }
+              ],
+              "carrierCode": "G4",
+              "operatorCode": null,
+              "flightNumber": "1810",
+              "connectionInfo": null,
+              "cabin": null,
+              "duration": 149
+            }
+          ],
+          "providerPricingOptions": [
+            {
+              "pricingInfos": [
+                {
+                  "baseFare": "USD37.95",
+                  "taxes": [
+                    {
+                      "code": "XT",
+                      "description": "FED EXCISE TAX",
+                      "amount": "USD2.85",
+                      "calculation": "g4-XT"
+                    }
+                  ],
+                  "fees": [
+                    {
+                      "code": "ZP",
+                      "description": "SEGMENT FEES",
+                      "amount": "USD4.10"
+                    },
+                    {
+                      "code": "SEC",
+                      "description": "SECURITY SERVICE FEE",
+                      "amount": "USD5.60"
+                    },
+                    {
+                      "code": "PFC",
+                      "description": "PFC",
+                      "amount": "USD4.50"
+                    }
+                  ],
+                  "availableSeats": 56,
+                  "couponCode": "",
+                  "passengers": null,
+                  "feeTotal": "USD14.20",
+                  "taxTotal": "USD2.85",
+                  "salesTotal": "USD55.00"
+                }
+              ],
+              "providerId": "g4",
+              "packageId": "NONE",
+              "referenceProperties": null
+            }
+          ],
+          "duration": 149
+        }
+      ],
+      "dataDictionary": null
+    },
+    "LAX-BLI-2017-03-07": {
+      "flightOptions": [
+        {
+          "segments": [
+            {
+              "legs": [
+                {
+                  "origin": "LAX",
+                  "destination": "BLI",
+                  "originTerminal": null,
+                  "destinationTerminal": null,
+                  "aircraftCode": "g4-0",
+                  "arrivalTime": "2017-03-07T14:37:00",
+                  "departureTime": "2017-03-07T11:53:00",
+                  "duration": 164,
+                  "miles": 1047,
+                  "connectionInfo": null,
+                  "operatorCode": null,
+                  "onTimePerformance": null,
+                  "gmtDepartureTime": "2017-03-07T19:53:00",
+                  "gmtArrivalTime": "2017-03-07T22:37:00"
+                }
+              ],
+              "carrierCode": "G4",
+              "operatorCode": null,
+              "flightNumber": "1803",
+              "connectionInfo": null,
+              "cabin": null,
+              "duration": 164
+            }
+          ],
+          "providerPricingOptions": [
+            {
+              "pricingInfos": [
+                {
+                  "baseFare": "USD24.93",
+                  "taxes": [
+                    {
+                      "code": "XT",
+                      "description": "FED EXCISE TAX",
+                      "amount": "USD1.87",
+                      "calculation": "g4-XT"
+                    }
+                  ],
+                  "fees": [
+                    {
+                      "code": "ZP",
+                      "description": "SEGMENT FEES",
+                      "amount": "USD4.10"
+                    },
+                    {
+                      "code": "SEC",
+                      "description": "SECURITY SERVICE FEE",
+                      "amount": "USD5.60"
+                    },
+                    {
+                      "code": "PFC",
+                      "description": "PFC",
+                      "amount": "USD4.50"
+                    }
+                  ],
+                  "availableSeats": 88,
+                  "couponCode": "",
+                  "passengers": null,
+                  "feeTotal": "USD14.20",
+                  "taxTotal": "USD1.87",
+                  "salesTotal": "USD41.00"
+                }
+              ],
+              "providerId": "g4",
+              "packageId": "NONE",
+              "referenceProperties": null
+            }
+          ],
+          "duration": 164
+        }
+      ],
+      "dataDictionary": null
+    }
+  }
+}

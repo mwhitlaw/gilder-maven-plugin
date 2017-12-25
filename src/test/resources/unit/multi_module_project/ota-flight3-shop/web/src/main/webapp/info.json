@@ -1,0 +1,6 @@
+{
+  "appName": "${project.artifactId}",
+  "version": "${project.version}",
+  "sourceRef": "${build.number}",
+  "buildDateTime": "${build.timestamp}"
+}

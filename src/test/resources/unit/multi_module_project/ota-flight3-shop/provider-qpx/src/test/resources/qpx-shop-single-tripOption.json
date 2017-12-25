@@ -1,0 +1,411 @@
+{
+  "kind": "qpxExpress#tripsSearch",
+  "trips": {
+    "kind": "qpxexpress#tripOptions",
+    "requestId": "5opUET2cudv0U21AZ0PnQX",
+    "data": {
+      "kind": "qpxexpress#data",
+      "airport": [
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "ATL",
+          "city": "ATL",
+          "name": "Atlanta Hartsfield-Jackson International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "BOS",
+          "city": "BOS",
+          "name": "Boston Edward L. Logan International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "DEN",
+          "city": "DEN",
+          "name": "Denver International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "EWR",
+          "city": "EWR",
+          "name": "Newark Liberty International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "IAD",
+          "city": "WAS",
+          "name": "Washington Dulles International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "IAH",
+          "city": "HOU",
+          "name": "Houston George Bush Intercont."
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "JFK",
+          "city": "NYC",
+          "name": "New York John F Kennedy International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "LAS",
+          "city": "LAS",
+          "name": "Las Vegas McCarran International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "LAX",
+          "city": "LAX",
+          "name": "Los Angeles International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "ORD",
+          "city": "CHI",
+          "name": "Chicago O'Hare"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "PDX",
+          "city": "PDX",
+          "name": "Portland International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "SFO",
+          "city": "SFO",
+          "name": "San Francisco International"
+        }
+      ],
+      "city": [
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "ATL",
+          "name": "Atlanta"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "BOS",
+          "name": "Boston"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "CHI",
+          "name": "Chicago"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "DEN",
+          "name": "Denver"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "EWR",
+          "name": "Newark"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "HOU",
+          "name": "Houston"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "LAS",
+          "name": "Las Vegas"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "LAX",
+          "name": "Los Angeles"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "NYC",
+          "name": "New York"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "PDX",
+          "name": "Portland"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "SFO",
+          "name": "San Francisco"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "WAS",
+          "name": "Washington"
+        }
+      ],
+      "aircraft": [
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "319",
+          "name": "Airbus A319"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "320",
+          "name": "Airbus A320"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "321",
+          "name": "Airbus A321"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "32A",
+          "name": "Airbus A320"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "32S",
+          "name": "Airbus A320"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "738",
+          "name": "Boeing 737"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "739",
+          "name": "Boeing 737"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "73G",
+          "name": "Boeing 737"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "73H",
+          "name": "Boeing 737"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "752",
+          "name": "Boeing 757"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "753",
+          "name": "Boeing 757"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "CR7",
+          "name": "Canadair RJ 700"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "E90",
+          "name": "Embraer RJ-190"
+        }
+      ],
+      "tax": [
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "ZP",
+          "name": "US Flight Segment Tax"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "AY_001",
+          "name": "US September 11th Security Fee"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "US_001",
+          "name": "US Transportation Tax"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "XF",
+          "name": "US Passenger Facility Charge"
+        }
+      ],
+      "carrier": [
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "AS",
+          "name": "Alaska Airlines Inc."
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "B6",
+          "name": "Jetblue Airways Corporation"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "NK",
+          "name": "Spirit Airlines"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "UA",
+          "name": "United Airlines, Inc."
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "VX",
+          "name": "Virgin America Inc."
+        }
+      ]
+    },
+    "tripOption": [
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD106.80",
+        "id": "L0wV7n5xQ7QMQJO5rLJU60002",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 535,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 404,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "717"
+                },
+                "id": "GxUV-842+Vuo4NN1",
+                "cabin": "COACH",
+                "bookingCode": "G",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L1HNeEWtSEvwO8FK",
+                    "aircraft": "738",
+                    "arrivalTime": "2017-01-29T21:48-08:00",
+                    "departureTime": "2017-01-29T18:04-05:00",
+                    "origin": "BOS",
+                    "destination": "LAX",
+                    "originTerminal": "B",
+                    "destinationTerminal": "7",
+                    "duration": 404,
+                    "onTimePerformance": 10,
+                    "mileage": 2604,
+                    "meal": "Food for Purchase",
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 57
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 74,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "719"
+                },
+                "id": "GbMgsGSYUs5kWEMW",
+                "cabin": "COACH",
+                "bookingCode": "G",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L1fpFsftGkv4JFux",
+                    "aircraft": "738",
+                    "arrivalTime": "2017-01-29T23:59-08:00",
+                    "departureTime": "2017-01-29T22:45-08:00",
+                    "origin": "LAX",
+                    "destination": "LAS",
+                    "originTerminal": "7",
+                    "destinationTerminal": "3",
+                    "duration": 74,
+                    "onTimePerformance": 70,
+                    "mileage": 236,
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ANEe006Zv6PWCwE+cVIZUUhSaDpJQBzJ6OlwfD0oKeZI",
+                "carrier": "UA",
+                "origin": "BOS",
+                "destination": "LAS",
+                "basisCode": "GAA7AHES"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ANEe006Zv6PWCwE+cVIZUUhSaDpJQBzJ6OlwfD0oKeZI",
+                "segmentId": "GbMgsGSYUs5kWEMW"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ANEe006Zv6PWCwE+cVIZUUhSaDpJQBzJ6OlwfD0oKeZI",
+                "segmentId": "GxUV-842+Vuo4NN1"
+              }
+            ],
+            "baseFareTotal": "USD78.14",
+            "saleFareTotal": "USD78.14",
+            "saleTaxTotal": "USD28.66",
+            "saleTotal": "USD106.80",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_001",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD5.86"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "ZP",
+                "chargeType": "GOVERNMENT",
+                "code": "ZP",
+                "country": "US",
+                "salePrice": "USD8.20"
+              }
+            ],
+            "fareCalculation": "BOS UA X/LAX UA LAS 78.14GAA7AHES USD 78.14 END ZP BOS LAX XT 5.86US 8.20ZP 5.60AY 9.00XF BOS4.50 LAX4.50",
+            "latestTicketingTime": "2017-01-11T23:59-05:00",
+            "ptc": "ADT"
+          }
+        ]
+      }
+    ]
+  }
+}

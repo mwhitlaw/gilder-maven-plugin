@@ -1,0 +1,85 @@
+{
+  "responseStatusDto": {
+    "warnings": [],
+    "errors": []
+  },
+  "shopDtos": [
+    {
+      "segment": {
+        "airlineCode": "G4",
+        "fltNum": "1811",
+        "equipment": {
+          "make": "Airbus",
+          "model": "31B"
+        },
+        "flightStatus": "",
+        "closeFlag": "",
+        "legs": [
+          {
+            "departAirport": "LAS",
+            "arriveAirport": "BLI",
+            "scheduledDepartDateTime": "2017-02-28T15:18:00.000",
+            "scheduledArriveDateTime": "2017-02-28T18:03:00.000",
+            "gmtScheduledDepartDateTime": "2017-02-28T23:18:00.000",
+            "gmtScheduledArriveDateTime": "2017-03-01T02:03:00.000",
+            "routeMiles": 954,
+            "actualDepartAirport": "LAS",
+            "actualArriveAirport": "BLI",
+            "leg": "1"
+          }
+        ]
+      },
+      "fareAndAvail": {
+        "fare": {
+          "fareClassCode": "R",
+          "baseFare": 52.84,
+          "fee": [
+            {
+              "type": 1,
+              "code": "XT",
+              "description": "FED EXCISE TAX",
+              "value": 3.96,
+              "rate": 0.0750,
+              "percentage": true,
+              "includedInFare": true
+            },
+            {
+              "type": 1,
+              "code": "ZP",
+              "description": "SEGMENT FEES",
+              "value": 4.1,
+              "rate": 4.1000,
+              "percentage": false,
+              "includedInFare": false
+            },
+            {
+              "type": 2,
+              "code": "SEC",
+              "description": "SECURITY SERVICE FEE",
+              "value": 5.6,
+              "rate": 5.60,
+              "percentage": false,
+              "includedInFare": false
+            },
+            {
+              "type": 2,
+              "code": "PFC",
+              "description": "PFC",
+              "value": 4.5,
+              "rate": 4.50,
+              "percentage": false,
+              "includedInFare": false
+            }
+          ],
+          "couponCode": ""
+        },
+        "fareClassInventory": {
+          "fareclassCode": "R",
+          "numberAvail": 1,
+          "totalFlightSeats": 156,
+          "waitListedCount": 0
+        }
+      }
+    }
+  ]
+}

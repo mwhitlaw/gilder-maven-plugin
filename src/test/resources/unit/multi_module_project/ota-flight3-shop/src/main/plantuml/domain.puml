@@ -1,0 +1,157 @@
+@startuml
+
+
+FlightOptions *-- "+" FlightOption
+FlightOptions *-- "+" FlightDataDictionary
+
+FlightOption *-- "+" price.ProviderFares
+FlightOption *-- "+" travel.Segment
+
+price.ProviderFares *-- "+" price.NamedFare
+
+travel.Segment *-- travel.ConnectionInfo
+travel.Segment *-- travel.Leg
+
+travel.Leg *-- travel.ConnectionInfo
+
+price.FareDetails *-- "*" price.Tax
+price.FareDetails *-- "*" price.Fee
+price.NamedFare *-- "+" price.PassengerTypeCount
+
+price.NamedFare *-- "+" price.FareDetails
+
+price.Tax *-- price.TaxCalculation
+
+price.BaseFareFromAirline *-- price.DiscountReason
+
+price.FareDetails *-- price.BaseFareFromAirline
+
+class FlightOptions {
+}
+
+
+class FlightOption {
+    int duraton,
+    int travelTime
+}
+
+class FlightDataDictionary {
+    Map<AirportCode, Airport> airports
+    Map<AircraftCode, Aircraft> aircraft
+    Map<AirlineCode, Airline> airline
+    Map<String, SpecialFareDetails> fareDetails
+}
+
+namespace price #LightBlue {
+
+    class ProviderFares {
+        String providerId
+        String packageId
+        List<String> fareClassCodes
+        Money lowestNamedFareSalesTotal
+    }
+
+    class NamedFare {
+        String name
+        List<String> ratePlanCodes
+        List<String> originalRatePlanCodes
+    }
+    note left: providers can group \nfares by name to \nsupport bundling items \nin the fare.
+
+    class FareDetails {
+        Money baseFare
+        int availableSeats
+        String couponCode
+        Money taxTotal
+        Money feeTotal
+        Money salesTotal
+    }
+
+    class BaseFareFromAirline {
+        Money strikethruBaseFare
+        Money strikeThruTax
+    }
+    note right: Present if there's \na discount or \nif the fare was \nmodified
+
+    class DiscountReason {
+        String name
+        Money amount
+        Money postTaxAmount
+    }
+
+    class Tax extends Charge {
+        TaxCalculation calculation
+    }
+
+    class TaxCalculation {
+        enum Type {FIXED, PERCENTAGE}
+
+        Type type
+        BigDecimal amount
+    }
+
+    class Charge {
+        String code
+        Money amount
+    }
+
+    class Fee extends Charge {
+    }
+
+    enum PassengerType {
+        SENIOR
+        ADULT
+        CHILD
+        INFANT
+        INFANT_ON_LAP
+
+        boolean occupiesSeat()
+    }
+
+
+    class PassengerTypeCount {
+        PassengerType type
+        int count
+    }
+
+}
+
+namespace travel #faa749 {
+
+    enum Cabin {
+        COACH
+        COACH_PLUS
+        BUSINESS
+        FIRST
+    }
+
+    class Segment {
+        AirlineId carrierId
+        AirlineId operatorId
+        FlightNumber flightNumber
+        int duration
+        Cabin cabin
+        Directionality directionality
+    }
+
+    class ConnectionInfo {
+        boolean changePlanes
+        int connectionDuration
+    }
+
+    class Leg {
+        AirportCode origin
+        AirportCode destination
+        Terminal originTerminal
+        Terminal destinationTerminal
+        AircraftId aircraftCode
+        LocalDateTime arrivalTime
+        LocalDateTime departureTime
+        Integer duration
+        Integer miles
+        AirlineCode operatorCode
+        Integer onTimePerformance
+    }
+}
+
+@enduml

@@ -1,0 +1,162 @@
+{
+  "responseStatusDto": {
+    "warnings": [],
+    "errors": []
+  },
+  "shopDtos": [
+    {
+      "segment": {
+        "airlineCode": "G4",
+        "fltNum": "509",
+        "equipment": {
+          "make": "McDonnell Douglas",
+          "model": "M86"
+        },
+        "flightStatus": "",
+        "closeFlag": "",
+        "legs": [
+          {
+            "departAirport": "OAK",
+            "arriveAirport": "LAS",
+            "scheduledDepartDateTime": "2017-03-12T19:35:00.000",
+            "scheduledArriveDateTime": "2017-03-12T21:00:00.000",
+            "gmtScheduledDepartDateTime": "2017-03-13T02:35:00.000",
+            "gmtScheduledArriveDateTime": "2017-03-13T04:00:00.000",
+            "routeMiles": 407,
+            "actualDepartAirport": "OAK",
+            "actualArriveAirport": "LAS",
+            "leg": "1"
+          }
+        ]
+      },
+      "fareAndAvail": {
+        "fare": {
+          "fareClassCode": "N",
+          "baseFare": 13.77,
+          "fee": [
+            {
+              "type": 1,
+              "code": "XT",
+              "description": "FED EXCISE TAX",
+              "value": 1.03,
+              "rate": 0.0750,
+              "percentage": true,
+              "includedInFare": true
+            },
+            {
+              "type": 1,
+              "code": "ZP",
+              "description": "SEGMENT FEES",
+              "value": 4.1,
+              "rate": 4.1000,
+              "percentage": false,
+              "includedInFare": false
+            },
+            {
+              "type": 2,
+              "code": "SEC",
+              "description": "SECURITY SERVICE FEE",
+              "value": 5.6,
+              "rate": 5.60,
+              "percentage": false,
+              "includedInFare": false
+            },
+            {
+              "type": 2,
+              "code": "PFC",
+              "description": "PFC",
+              "value": 4.5,
+              "rate": 4.50,
+              "percentage": false,
+              "includedInFare": false
+            }
+          ],
+          "couponCode": ""
+        },
+        "fareClassInventory": {
+          "fareclassCode": "N",
+          "numberAvail": 5,
+          "totalFlightSeats": 166,
+          "waitListedCount": 0
+        }
+      }
+    },
+    {
+      "segment": {
+        "airlineCode": "G4",
+        "fltNum": "509",
+        "equipment": {
+          "make": "McDonnell Douglas",
+          "model": "M86"
+        },
+        "flightStatus": "",
+        "closeFlag": "",
+        "legs": [
+          {
+            "departAirport": "OAK",
+            "arriveAirport": "LAS",
+            "scheduledDepartDateTime": "2017-03-13T19:35:00.000",
+            "scheduledArriveDateTime": "2017-03-13T21:00:00.000",
+            "gmtScheduledDepartDateTime": "2017-03-14T02:35:00.000",
+            "gmtScheduledArriveDateTime": "2017-03-14T04:00:00.000",
+            "routeMiles": 407,
+            "actualDepartAirport": "OAK",
+            "actualArriveAirport": "LAS",
+            "leg": "1"
+          }
+        ]
+      },
+      "fareAndAvail": {
+        "fare": {
+          "fareClassCode": "O",
+          "baseFare": 17.49,
+          "fee": [
+            {
+              "type": 1,
+              "code": "XT",
+              "description": "FED EXCISE TAX",
+              "value": 1.31,
+              "rate": 0.0750,
+              "percentage": true,
+              "includedInFare": true
+            },
+            {
+              "type": 1,
+              "code": "ZP",
+              "description": "SEGMENT FEES",
+              "value": 4.1,
+              "rate": 4.1000,
+              "percentage": false,
+              "includedInFare": false
+            },
+            {
+              "type": 2,
+              "code": "SEC",
+              "description": "SECURITY SERVICE FEE",
+              "value": 5.6,
+              "rate": 5.60,
+              "percentage": false,
+              "includedInFare": false
+            },
+            {
+              "type": 2,
+              "code": "PFC",
+              "description": "PFC",
+              "value": 4.5,
+              "rate": 4.50,
+              "percentage": false,
+              "includedInFare": false
+            }
+          ],
+          "couponCode": ""
+        },
+        "fareClassInventory": {
+          "fareclassCode": "O",
+          "numberAvail": 5,
+          "totalFlightSeats": 166,
+          "waitListedCount": 0
+        }
+      }
+    }
+  ]
+}
