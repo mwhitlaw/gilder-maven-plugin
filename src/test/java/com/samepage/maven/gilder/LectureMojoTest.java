@@ -1,5 +1,6 @@
 package com.samepage.maven.gilder;
 
+
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertNotNull;
